@@ -1,6 +1,19 @@
-﻿int a = 44;
-int b = 5;
-int c = 78;
+﻿Console.Write($"Введите одно число: ");
+int a = 0;
+string numberA = Console.ReadLine()!;
+a = int.Parse(numberA);
+
+Console.Write($"Введите другое число: ");
+int b = 0;
+string numberB = Console.ReadLine()!;
+b = int.Parse(numberB);
+
+Console.Write($"Введите третье число: ");
+int c = 0;
+string numberC = Console.ReadLine()!;
+c = int.Parse(numberC);
+
+
 
 int max = a;
 
