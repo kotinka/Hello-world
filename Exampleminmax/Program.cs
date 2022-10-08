@@ -1,5 +1,14 @@
-﻿int a = -9;
-int b = -3;
+﻿Console.Write($"Введите одно число: ");
+int a = 0;
+string numberA = Console.ReadLine()!;
+a = int.Parse(numberA);
+
+Console.Write($"Введите другое число: ");
+int b = 0;
+string numberB = Console.ReadLine()!;
+b = int.Parse(numberB);
+
+
 
 int max = a;
 int min = b;
