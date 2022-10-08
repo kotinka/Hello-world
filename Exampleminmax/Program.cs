@@ -10,5 +10,6 @@ Console.Write("Большее число - ");
 Console.WriteLine( max);
 Console.Write("Меньшее число - ");
 Console.WriteLine( min);
+Console.ReadKey();
 
 
